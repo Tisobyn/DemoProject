@@ -3,18 +3,58 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3AB15F40DCEDEB1186756493 /* Pods_DemoProjectTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1A98E9D7C8EEAD253AB7EFF /* Pods_DemoProjectTests.framework */; };
 		3E1EB56C2539DE5A003E2918 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E1EB56B2539DE5A003E2918 /* AppDelegate.swift */; };
 		3E1EB56E2539DE5A003E2918 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E1EB56D2539DE5A003E2918 /* SceneDelegate.swift */; };
-		3E1EB5702539DE5A003E2918 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E1EB56F2539DE5A003E2918 /* ViewController.swift */; };
+		3E1EB5702539DE5A003E2918 /* AddressListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E1EB56F2539DE5A003E2918 /* AddressListViewController.swift */; };
 		3E1EB5732539DE5A003E2918 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E1EB5712539DE5A003E2918 /* Main.storyboard */; };
 		3E1EB5752539DE5D003E2918 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E1EB5742539DE5D003E2918 /* Assets.xcassets */; };
 		3E1EB5782539DE5D003E2918 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E1EB5762539DE5D003E2918 /* LaunchScreen.storyboard */; };
 		3E1EB5832539DE5E003E2918 /* DemoProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E1EB5822539DE5E003E2918 /* DemoProjectTests.swift */; };
 		3E1EB58E2539DE5E003E2918 /* DemoProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E1EB58D2539DE5E003E2918 /* DemoProjectUITests.swift */; };
+		3E1EB5A32539DEE0003E2918 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E1EB5A22539DEE0003E2918 /* UIView+Extension.swift */; };
+		3E1EB5AB2539DF22003E2918 /* UICollectionView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E1EB5AA2539DF22003E2918 /* UICollectionView+Extension.swift */; };
+		3E1EB5B02539DF5F003E2918 /* NSNotificationName+swift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E1EB5AF2539DF5F003E2918 /* NSNotificationName+swift.swift */; };
+		3E1EB5B52539DF7C003E2918 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E1EB5B42539DF7C003E2918 /* Constants.swift */; };
+		3E1EB6022539EC25003E2918 /* AddressListViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E1EB6012539EC25003E2918 /* AddressListViewProtocol.swift */; };
+		3E1EB6212539EE27003E2918 /* AddressFormCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E1EB61F2539EE27003E2918 /* AddressFormCell.swift */; };
+		3E1EB6222539EE27003E2918 /* AddressFormCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3E1EB6202539EE27003E2918 /* AddressFormCell.xib */; };
+		3E1EB6272539F25B003E2918 /* AddressListInteractorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E1EB6262539F25B003E2918 /* AddressListInteractorProtocol.swift */; };
+		3E1EB62D2539F2BE003E2918 /* AddressListInteractorOutputProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E1EB62C2539F2BE003E2918 /* AddressListInteractorOutputProtocol.swift */; };
+		3E1EB6352539F2DF003E2918 /* AddressListInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E1EB6342539F2DF003E2918 /* AddressListInteractor.swift */; };
+		3E1EB63A2539F30C003E2918 /* AddressListPresenterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E1EB6392539F30C003E2918 /* AddressListPresenterProtocol.swift */; };
+		3E1EB63F2539F323003E2918 /* AddressListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E1EB63E2539F323003E2918 /* AddressListPresenter.swift */; };
+		3E1EB6442539F34C003E2918 /* AddressRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E1EB6432539F34C003E2918 /* AddressRepresentable.swift */; };
+		3E1EB6492539F36A003E2918 /* Address.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E1EB6482539F36A003E2918 /* Address.swift */; };
+		3E1EB64E2539F398003E2918 /* AddressListRouterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E1EB64D2539F398003E2918 /* AddressListRouterProtocol.swift */; };
+		3E1EB6532539F3B6003E2918 /* AddressListRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E1EB6522539F3B6003E2918 /* AddressListRouter.swift */; };
+		3E1EB6582539F3DC003E2918 /* AddressListConfiguratorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E1EB6572539F3DC003E2918 /* AddressListConfiguratorProtocol.swift */; };
+		3E1EB65D2539F3F6003E2918 /* AddressListConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E1EB65C2539F3F6003E2918 /* AddressListConfigurator.swift */; };
+		3E1EB6622539F40D003E2918 /* AddressServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E1EB6612539F40D003E2918 /* AddressServiceProtocol.swift */; };
+		3E1EB6672539F428003E2918 /* AddressService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E1EB6662539F428003E2918 /* AddressService.swift */; };
+		3E1EB6712539F493003E2918 /* CityListViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E1EB6702539F493003E2918 /* CityListViewProtocol.swift */; };
+		3E1EB6762539F510003E2918 /* CityListInteractorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E1EB6752539F510003E2918 /* CityListInteractorProtocol.swift */; };
+		3E1EB67B2539F533003E2918 /* CityListInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E1EB67A2539F533003E2918 /* CityListInteractor.swift */; };
+		3E1EB6802539F54F003E2918 /* CityListInteractorOutputProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E1EB67F2539F54F003E2918 /* CityListInteractorOutputProtocol.swift */; };
+		3E1EB6852539F56C003E2918 /* CityListPresenterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E1EB6842539F56C003E2918 /* CityListPresenterProtocol.swift */; };
+		3E1EB68A2539F57F003E2918 /* CityListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E1EB6892539F57F003E2918 /* CityListPresenter.swift */; };
+		3E1EB68F2539F5A2003E2918 /* City.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E1EB68E2539F5A2003E2918 /* City.swift */; };
+		3E1EB6942539F5BF003E2918 /* CityListRouterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E1EB6932539F5BF003E2918 /* CityListRouterProtocol.swift */; };
+		3E1EB6992539F5D9003E2918 /* CityListRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E1EB6982539F5D9003E2918 /* CityListRouter.swift */; };
+		3E1EB69E2539F603003E2918 /* CityListConfiguratorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E1EB69D2539F603003E2918 /* CityListConfiguratorProtocol.swift */; };
+		3E1EB6A32539F61A003E2918 /* CityListConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E1EB6A22539F61A003E2918 /* CityListConfigurator.swift */; };
+		3E1EB6A82539F635003E2918 /* AddressGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E1EB6A72539F635003E2918 /* AddressGenerator.swift */; };
+		3E1EB6AD2539F654003E2918 /* CityServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E1EB6AC2539F654003E2918 /* CityServiceProtocol.swift */; };
+		3E1EB6B22539F66C003E2918 /* CityService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E1EB6B12539F66C003E2918 /* CityService.swift */; };
+		3E1EB6BF2539FD4D003E2918 /* CityListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E1EB6BE2539FD4D003E2918 /* CityListView.swift */; };
+		3E1EB6CF2539FE13003E2918 /* CityCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E1EB6CE2539FE13003E2918 /* CityCell.swift */; };
+		3E1EB6E9253A0036003E2918 /* AddressCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E1EB6E8253A0036003E2918 /* AddressCell.swift */; };
+		B3AEEC70D4F8A2D0C978E3DB /* Pods_DemoProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 361505A7CF45B0B49A4C71C7 /* Pods_DemoProject.framework */; };
+		C716F6C0D49D5E0BECF7BBAF /* Pods_DemoProject_DemoProjectUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DDA38E166C56612B2BBBFFE /* Pods_DemoProject_DemoProjectUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,10 +75,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1DDA38E166C56612B2BBBFFE /* Pods_DemoProject_DemoProjectUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DemoProject_DemoProjectUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		276A5F17DDDA7A414B95057B /* Pods-DemoProject-DemoProjectUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoProject-DemoProjectUITests.debug.xcconfig"; path = "Target Support Files/Pods-DemoProject-DemoProjectUITests/Pods-DemoProject-DemoProjectUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		30942D84F3B9C627D29CFE42 /* Pods-DemoProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoProject.debug.xcconfig"; path = "Target Support Files/Pods-DemoProject/Pods-DemoProject.debug.xcconfig"; sourceTree = "<group>"; };
+		361505A7CF45B0B49A4C71C7 /* Pods_DemoProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DemoProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		39FCA55EF17D00882DF608D1 /* Pods-DemoProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoProject.release.xcconfig"; path = "Target Support Files/Pods-DemoProject/Pods-DemoProject.release.xcconfig"; sourceTree = "<group>"; };
 		3E1EB5682539DE5A003E2918 /* DemoProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E1EB56B2539DE5A003E2918 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3E1EB56D2539DE5A003E2918 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		3E1EB56F2539DE5A003E2918 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3E1EB56F2539DE5A003E2918 /* AddressListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressListViewController.swift; sourceTree = "<group>"; };
 		3E1EB5722539DE5A003E2918 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3E1EB5742539DE5D003E2918 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3E1EB5772539DE5D003E2918 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +94,47 @@
 		3E1EB5892539DE5E003E2918 /* DemoProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemoProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E1EB58D2539DE5E003E2918 /* DemoProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoProjectUITests.swift; sourceTree = "<group>"; };
 		3E1EB58F2539DE5E003E2918 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3E1EB5A22539DEE0003E2918 /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		3E1EB5AA2539DF22003E2918 /* UICollectionView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UICollectionView+Extension.swift"; sourceTree = "<group>"; };
+		3E1EB5AF2539DF5F003E2918 /* NSNotificationName+swift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSNotificationName+swift.swift"; sourceTree = "<group>"; };
+		3E1EB5B42539DF7C003E2918 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		3E1EB6012539EC25003E2918 /* AddressListViewProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressListViewProtocol.swift; sourceTree = "<group>"; };
+		3E1EB61F2539EE27003E2918 /* AddressFormCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressFormCell.swift; sourceTree = "<group>"; };
+		3E1EB6202539EE27003E2918 /* AddressFormCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AddressFormCell.xib; sourceTree = "<group>"; };
+		3E1EB6262539F25B003E2918 /* AddressListInteractorProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressListInteractorProtocol.swift; sourceTree = "<group>"; };
+		3E1EB62C2539F2BE003E2918 /* AddressListInteractorOutputProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressListInteractorOutputProtocol.swift; sourceTree = "<group>"; };
+		3E1EB6342539F2DF003E2918 /* AddressListInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressListInteractor.swift; sourceTree = "<group>"; };
+		3E1EB6392539F30C003E2918 /* AddressListPresenterProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressListPresenterProtocol.swift; sourceTree = "<group>"; };
+		3E1EB63E2539F323003E2918 /* AddressListPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressListPresenter.swift; sourceTree = "<group>"; };
+		3E1EB6432539F34C003E2918 /* AddressRepresentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressRepresentable.swift; sourceTree = "<group>"; };
+		3E1EB6482539F36A003E2918 /* Address.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Address.swift; sourceTree = "<group>"; };
+		3E1EB64D2539F398003E2918 /* AddressListRouterProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressListRouterProtocol.swift; sourceTree = "<group>"; };
+		3E1EB6522539F3B6003E2918 /* AddressListRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressListRouter.swift; sourceTree = "<group>"; };
+		3E1EB6572539F3DC003E2918 /* AddressListConfiguratorProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressListConfiguratorProtocol.swift; sourceTree = "<group>"; };
+		3E1EB65C2539F3F6003E2918 /* AddressListConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressListConfigurator.swift; sourceTree = "<group>"; };
+		3E1EB6612539F40D003E2918 /* AddressServiceProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressServiceProtocol.swift; sourceTree = "<group>"; };
+		3E1EB6662539F428003E2918 /* AddressService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressService.swift; sourceTree = "<group>"; };
+		3E1EB6702539F493003E2918 /* CityListViewProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityListViewProtocol.swift; sourceTree = "<group>"; };
+		3E1EB6752539F510003E2918 /* CityListInteractorProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityListInteractorProtocol.swift; sourceTree = "<group>"; };
+		3E1EB67A2539F533003E2918 /* CityListInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityListInteractor.swift; sourceTree = "<group>"; };
+		3E1EB67F2539F54F003E2918 /* CityListInteractorOutputProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityListInteractorOutputProtocol.swift; sourceTree = "<group>"; };
+		3E1EB6842539F56C003E2918 /* CityListPresenterProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityListPresenterProtocol.swift; sourceTree = "<group>"; };
+		3E1EB6892539F57F003E2918 /* CityListPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityListPresenter.swift; sourceTree = "<group>"; };
+		3E1EB68E2539F5A2003E2918 /* City.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = City.swift; sourceTree = "<group>"; };
+		3E1EB6932539F5BF003E2918 /* CityListRouterProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityListRouterProtocol.swift; sourceTree = "<group>"; };
+		3E1EB6982539F5D9003E2918 /* CityListRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityListRouter.swift; sourceTree = "<group>"; };
+		3E1EB69D2539F603003E2918 /* CityListConfiguratorProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityListConfiguratorProtocol.swift; sourceTree = "<group>"; };
+		3E1EB6A22539F61A003E2918 /* CityListConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityListConfigurator.swift; sourceTree = "<group>"; };
+		3E1EB6A72539F635003E2918 /* AddressGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressGenerator.swift; sourceTree = "<group>"; };
+		3E1EB6AC2539F654003E2918 /* CityServiceProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityServiceProtocol.swift; sourceTree = "<group>"; };
+		3E1EB6B12539F66C003E2918 /* CityService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityService.swift; sourceTree = "<group>"; };
+		3E1EB6BE2539FD4D003E2918 /* CityListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityListView.swift; sourceTree = "<group>"; };
+		3E1EB6CE2539FE13003E2918 /* CityCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityCell.swift; sourceTree = "<group>"; };
+		3E1EB6E8253A0036003E2918 /* AddressCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressCell.swift; sourceTree = "<group>"; };
+		80B9B77716BBE6C083059EF9 /* Pods-DemoProject-DemoProjectUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoProject-DemoProjectUITests.release.xcconfig"; path = "Target Support Files/Pods-DemoProject-DemoProjectUITests/Pods-DemoProject-DemoProjectUITests.release.xcconfig"; sourceTree = "<group>"; };
+		D1A98E9D7C8EEAD253AB7EFF /* Pods_DemoProjectTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DemoProjectTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E85E8381EE09C9A7FC2661AD /* Pods-DemoProjectTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoProjectTests.debug.xcconfig"; path = "Target Support Files/Pods-DemoProjectTests/Pods-DemoProjectTests.debug.xcconfig"; sourceTree = "<group>"; };
+		EE242ABAA7DB97CBE0615C98 /* Pods-DemoProjectTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoProjectTests.release.xcconfig"; path = "Target Support Files/Pods-DemoProjectTests/Pods-DemoProjectTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +142,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B3AEEC70D4F8A2D0C978E3DB /* Pods_DemoProject.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +150,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3AB15F40DCEDEB1186756493 /* Pods_DemoProjectTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +158,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C716F6C0D49D5E0BECF7BBAF /* Pods_DemoProject_DemoProjectUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		17D40025BADC9BC2347B7AB8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				30942D84F3B9C627D29CFE42 /* Pods-DemoProject.debug.xcconfig */,
+				39FCA55EF17D00882DF608D1 /* Pods-DemoProject.release.xcconfig */,
+				276A5F17DDDA7A414B95057B /* Pods-DemoProject-DemoProjectUITests.debug.xcconfig */,
+				80B9B77716BBE6C083059EF9 /* Pods-DemoProject-DemoProjectUITests.release.xcconfig */,
+				E85E8381EE09C9A7FC2661AD /* Pods-DemoProjectTests.debug.xcconfig */,
+				EE242ABAA7DB97CBE0615C98 /* Pods-DemoProjectTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		3E1EB55F2539DE5A003E2918 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +185,8 @@
 				3E1EB5812539DE5E003E2918 /* DemoProjectTests */,
 				3E1EB58C2539DE5E003E2918 /* DemoProjectUITests */,
 				3E1EB5692539DE5A003E2918 /* Products */,
+				17D40025BADC9BC2347B7AB8 /* Pods */,
+				934C919740D6BBFA51D1A819 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,13 +203,11 @@
 		3E1EB56A2539DE5A003E2918 /* DemoProject */ = {
 			isa = PBXGroup;
 			children = (
-				3E1EB56B2539DE5A003E2918 /* AppDelegate.swift */,
-				3E1EB56D2539DE5A003E2918 /* SceneDelegate.swift */,
-				3E1EB56F2539DE5A003E2918 /* ViewController.swift */,
-				3E1EB5712539DE5A003E2918 /* Main.storyboard */,
-				3E1EB5742539DE5D003E2918 /* Assets.xcassets */,
-				3E1EB5762539DE5D003E2918 /* LaunchScreen.storyboard */,
 				3E1EB5792539DE5D003E2918 /* Info.plist */,
+				3E1EB59E2539DE64003E2918 /* App */,
+				3E1EB5F42539E4C6003E2918 /* Supporting Files */,
+				3E1EB59F2539DE6F003E2918 /* Helpers */,
+				3E1EB5A02539DE86003E2918 /* Modules */,
 			);
 			path = DemoProject;
 			sourceTree = "<group>";
@@ -128,6 +230,239 @@
 			path = DemoProjectUITests;
 			sourceTree = "<group>";
 		};
+		3E1EB59E2539DE64003E2918 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				3E1EB56B2539DE5A003E2918 /* AppDelegate.swift */,
+				3E1EB56D2539DE5A003E2918 /* SceneDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		3E1EB59F2539DE6F003E2918 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				3E1EB5A12539DEBA003E2918 /* Extensions */,
+				3E1EB5742539DE5D003E2918 /* Assets.xcassets */,
+				3E1EB5B42539DF7C003E2918 /* Constants.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		3E1EB5A02539DE86003E2918 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				3E1EB5CE2539E1F5003E2918 /* MainVC */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		3E1EB5A12539DEBA003E2918 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				3E1EB5A22539DEE0003E2918 /* UIView+Extension.swift */,
+				3E1EB5AA2539DF22003E2918 /* UICollectionView+Extension.swift */,
+				3E1EB5AF2539DF5F003E2918 /* NSNotificationName+swift.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		3E1EB5B92539DF97003E2918 /* CityList */ = {
+			isa = PBXGroup;
+			children = (
+				3E1EB5DC2539E2FE003E2918 /* View */,
+				3E1EB5DB2539E2F6003E2918 /* Interactor */,
+				3E1EB5DA2539E2F1003E2918 /* Presenter */,
+				3E1EB5D92539E2EC003E2918 /* Entity */,
+				3E1EB5D82539E2E7003E2918 /* Router */,
+				3E1EB5D72539E2E1003E2918 /* Configurator */,
+				3E1EB5D62539E2DB003E2918 /* Service */,
+			);
+			path = CityList;
+			sourceTree = "<group>";
+		};
+		3E1EB5BA2539DF9F003E2918 /* AddressList */ = {
+			isa = PBXGroup;
+			children = (
+				3E1EB5D52539E2C7003E2918 /* View */,
+				3E1EB5D42539E2BC003E2918 /* Interactor */,
+				3E1EB5D32539E2B4003E2918 /* Presenter */,
+				3E1EB5D22539E25B003E2918 /* Entity */,
+				3E1EB5D12539E250003E2918 /* Router */,
+				3E1EB5D02539E242003E2918 /* Configurator */,
+				3E1EB5CF2539E232003E2918 /* Service */,
+			);
+			path = AddressList;
+			sourceTree = "<group>";
+		};
+		3E1EB5CE2539E1F5003E2918 /* MainVC */ = {
+			isa = PBXGroup;
+			children = (
+				3E1EB5712539DE5A003E2918 /* Main.storyboard */,
+				3E1EB5BA2539DF9F003E2918 /* AddressList */,
+				3E1EB5B92539DF97003E2918 /* CityList */,
+			);
+			path = MainVC;
+			sourceTree = "<group>";
+		};
+		3E1EB5CF2539E232003E2918 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				3E1EB6612539F40D003E2918 /* AddressServiceProtocol.swift */,
+				3E1EB6662539F428003E2918 /* AddressService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		3E1EB5D02539E242003E2918 /* Configurator */ = {
+			isa = PBXGroup;
+			children = (
+				3E1EB6572539F3DC003E2918 /* AddressListConfiguratorProtocol.swift */,
+				3E1EB65C2539F3F6003E2918 /* AddressListConfigurator.swift */,
+			);
+			path = Configurator;
+			sourceTree = "<group>";
+		};
+		3E1EB5D12539E250003E2918 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				3E1EB64D2539F398003E2918 /* AddressListRouterProtocol.swift */,
+				3E1EB6522539F3B6003E2918 /* AddressListRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		3E1EB5D22539E25B003E2918 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				3E1EB6432539F34C003E2918 /* AddressRepresentable.swift */,
+				3E1EB6482539F36A003E2918 /* Address.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		3E1EB5D32539E2B4003E2918 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				3E1EB6392539F30C003E2918 /* AddressListPresenterProtocol.swift */,
+				3E1EB63E2539F323003E2918 /* AddressListPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		3E1EB5D42539E2BC003E2918 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				3E1EB6262539F25B003E2918 /* AddressListInteractorProtocol.swift */,
+				3E1EB62C2539F2BE003E2918 /* AddressListInteractorOutputProtocol.swift */,
+				3E1EB6342539F2DF003E2918 /* AddressListInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		3E1EB5D52539E2C7003E2918 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3E1EB6012539EC25003E2918 /* AddressListViewProtocol.swift */,
+				3E1EB56F2539DE5A003E2918 /* AddressListViewController.swift */,
+				3E1EB6092539ED40003E2918 /* Cells */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3E1EB5D62539E2DB003E2918 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				3E1EB6A72539F635003E2918 /* AddressGenerator.swift */,
+				3E1EB6AC2539F654003E2918 /* CityServiceProtocol.swift */,
+				3E1EB6B12539F66C003E2918 /* CityService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		3E1EB5D72539E2E1003E2918 /* Configurator */ = {
+			isa = PBXGroup;
+			children = (
+				3E1EB69D2539F603003E2918 /* CityListConfiguratorProtocol.swift */,
+				3E1EB6A22539F61A003E2918 /* CityListConfigurator.swift */,
+			);
+			path = Configurator;
+			sourceTree = "<group>";
+		};
+		3E1EB5D82539E2E7003E2918 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				3E1EB6932539F5BF003E2918 /* CityListRouterProtocol.swift */,
+				3E1EB6982539F5D9003E2918 /* CityListRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		3E1EB5D92539E2EC003E2918 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				3E1EB68E2539F5A2003E2918 /* City.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		3E1EB5DA2539E2F1003E2918 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				3E1EB6842539F56C003E2918 /* CityListPresenterProtocol.swift */,
+				3E1EB6892539F57F003E2918 /* CityListPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		3E1EB5DB2539E2F6003E2918 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				3E1EB6752539F510003E2918 /* CityListInteractorProtocol.swift */,
+				3E1EB67A2539F533003E2918 /* CityListInteractor.swift */,
+				3E1EB67F2539F54F003E2918 /* CityListInteractorOutputProtocol.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		3E1EB5DC2539E2FE003E2918 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3E1EB6702539F493003E2918 /* CityListViewProtocol.swift */,
+				3E1EB6BE2539FD4D003E2918 /* CityListView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3E1EB5F42539E4C6003E2918 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3E1EB5762539DE5D003E2918 /* LaunchScreen.storyboard */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3E1EB6092539ED40003E2918 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				3E1EB6E8253A0036003E2918 /* AddressCell.swift */,
+				3E1EB61F2539EE27003E2918 /* AddressFormCell.swift */,
+				3E1EB6202539EE27003E2918 /* AddressFormCell.xib */,
+				3E1EB6CE2539FE13003E2918 /* CityCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		934C919740D6BBFA51D1A819 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				361505A7CF45B0B49A4C71C7 /* Pods_DemoProject.framework */,
+				1DDA38E166C56612B2BBBFFE /* Pods_DemoProject_DemoProjectUITests.framework */,
+				D1A98E9D7C8EEAD253AB7EFF /* Pods_DemoProjectTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +470,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3E1EB5922539DE5E003E2918 /* Build configuration list for PBXNativeTarget "DemoProject" */;
 			buildPhases = (
+				B70EA05CE5279E0B6C675401 /* [CP] Check Pods Manifest.lock */,
 				3E1EB5642539DE5A003E2918 /* Sources */,
 				3E1EB5652539DE5A003E2918 /* Frameworks */,
 				3E1EB5662539DE5A003E2918 /* Resources */,
+				A83CB6032A57100427CA1E97 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +489,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3E1EB5952539DE5E003E2918 /* Build configuration list for PBXNativeTarget "DemoProjectTests" */;
 			buildPhases = (
+				EB141B17119C1F92F4ACD29E /* [CP] Check Pods Manifest.lock */,
 				3E1EB57A2539DE5E003E2918 /* Sources */,
 				3E1EB57B2539DE5E003E2918 /* Frameworks */,
 				3E1EB57C2539DE5E003E2918 /* Resources */,
@@ -170,9 +508,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3E1EB5982539DE5E003E2918 /* Build configuration list for PBXNativeTarget "DemoProjectUITests" */;
 			buildPhases = (
+				F1E42850B29B1991D76B716A /* [CP] Check Pods Manifest.lock */,
 				3E1EB5852539DE5E003E2918 /* Sources */,
 				3E1EB5862539DE5E003E2918 /* Frameworks */,
 				3E1EB5872539DE5E003E2918 /* Resources */,
+				17F09767B6D1A681B5D40811 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -233,6 +573,7 @@
 			files = (
 				3E1EB5782539DE5D003E2918 /* LaunchScreen.storyboard in Resources */,
 				3E1EB5752539DE5D003E2918 /* Assets.xcassets in Resources */,
+				3E1EB6222539EE27003E2918 /* AddressFormCell.xib in Resources */,
 				3E1EB5732539DE5A003E2918 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -253,14 +594,153 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		17F09767B6D1A681B5D40811 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DemoProject-DemoProjectUITests/Pods-DemoProject-DemoProjectUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DemoProject-DemoProjectUITests/Pods-DemoProject-DemoProjectUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DemoProject-DemoProjectUITests/Pods-DemoProject-DemoProjectUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A83CB6032A57100427CA1E97 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DemoProject/Pods-DemoProject-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DemoProject/Pods-DemoProject-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DemoProject/Pods-DemoProject-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B70EA05CE5279E0B6C675401 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DemoProject-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EB141B17119C1F92F4ACD29E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DemoProjectTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F1E42850B29B1991D76B716A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DemoProject-DemoProjectUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3E1EB5642539DE5A003E2918 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3E1EB5702539DE5A003E2918 /* ViewController.swift in Sources */,
+				3E1EB6A82539F635003E2918 /* AddressGenerator.swift in Sources */,
+				3E1EB6492539F36A003E2918 /* Address.swift in Sources */,
+				3E1EB6CF2539FE13003E2918 /* CityCell.swift in Sources */,
+				3E1EB5702539DE5A003E2918 /* AddressListViewController.swift in Sources */,
+				3E1EB6352539F2DF003E2918 /* AddressListInteractor.swift in Sources */,
+				3E1EB6B22539F66C003E2918 /* CityService.swift in Sources */,
+				3E1EB6272539F25B003E2918 /* AddressListInteractorProtocol.swift in Sources */,
+				3E1EB6942539F5BF003E2918 /* CityListRouterProtocol.swift in Sources */,
+				3E1EB63A2539F30C003E2918 /* AddressListPresenterProtocol.swift in Sources */,
+				3E1EB6532539F3B6003E2918 /* AddressListRouter.swift in Sources */,
+				3E1EB6AD2539F654003E2918 /* CityServiceProtocol.swift in Sources */,
+				3E1EB6622539F40D003E2918 /* AddressServiceProtocol.swift in Sources */,
+				3E1EB6712539F493003E2918 /* CityListViewProtocol.swift in Sources */,
+				3E1EB5AB2539DF22003E2918 /* UICollectionView+Extension.swift in Sources */,
+				3E1EB62D2539F2BE003E2918 /* AddressListInteractorOutputProtocol.swift in Sources */,
+				3E1EB5B02539DF5F003E2918 /* NSNotificationName+swift.swift in Sources */,
+				3E1EB6852539F56C003E2918 /* CityListPresenterProtocol.swift in Sources */,
+				3E1EB65D2539F3F6003E2918 /* AddressListConfigurator.swift in Sources */,
 				3E1EB56C2539DE5A003E2918 /* AppDelegate.swift in Sources */,
+				3E1EB69E2539F603003E2918 /* CityListConfiguratorProtocol.swift in Sources */,
+				3E1EB5B52539DF7C003E2918 /* Constants.swift in Sources */,
+				3E1EB6BF2539FD4D003E2918 /* CityListView.swift in Sources */,
+				3E1EB6582539F3DC003E2918 /* AddressListConfiguratorProtocol.swift in Sources */,
+				3E1EB6442539F34C003E2918 /* AddressRepresentable.swift in Sources */,
+				3E1EB6992539F5D9003E2918 /* CityListRouter.swift in Sources */,
+				3E1EB6802539F54F003E2918 /* CityListInteractorOutputProtocol.swift in Sources */,
+				3E1EB6E9253A0036003E2918 /* AddressCell.swift in Sources */,
+				3E1EB5A32539DEE0003E2918 /* UIView+Extension.swift in Sources */,
+				3E1EB6A32539F61A003E2918 /* CityListConfigurator.swift in Sources */,
+				3E1EB6212539EE27003E2918 /* AddressFormCell.swift in Sources */,
+				3E1EB68A2539F57F003E2918 /* CityListPresenter.swift in Sources */,
+				3E1EB6762539F510003E2918 /* CityListInteractorProtocol.swift in Sources */,
+				3E1EB64E2539F398003E2918 /* AddressListRouterProtocol.swift in Sources */,
+				3E1EB67B2539F533003E2918 /* CityListInteractor.swift in Sources */,
 				3E1EB56E2539DE5A003E2918 /* SceneDelegate.swift in Sources */,
+				3E1EB6022539EC25003E2918 /* AddressListViewProtocol.swift in Sources */,
+				3E1EB6672539F428003E2918 /* AddressService.swift in Sources */,
+				3E1EB68F2539F5A2003E2918 /* City.swift in Sources */,
+				3E1EB63F2539F323003E2918 /* AddressListPresenter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,12 +913,14 @@
 		};
 		3E1EB5932539DE5E003E2918 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 30942D84F3B9C627D29CFE42 /* Pods-DemoProject.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = T9ZCYF5F85;
 				INFOPLIST_FILE = DemoProject/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -446,18 +928,20 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "Yermek-Sabyrzhan.DemoProject";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		3E1EB5942539DE5E003E2918 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 39FCA55EF17D00882DF608D1 /* Pods-DemoProject.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = T9ZCYF5F85;
 				INFOPLIST_FILE = DemoProject/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -465,12 +949,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "Yermek-Sabyrzhan.DemoProject";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 		3E1EB5962539DE5E003E2918 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E85E8381EE09C9A7FC2661AD /* Pods-DemoProjectTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -493,6 +978,7 @@
 		};
 		3E1EB5972539DE5E003E2918 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE242ABAA7DB97CBE0615C98 /* Pods-DemoProjectTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -515,6 +1001,7 @@
 		};
 		3E1EB5992539DE5E003E2918 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 276A5F17DDDA7A414B95057B /* Pods-DemoProject-DemoProjectUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -535,6 +1022,7 @@
 		};
 		3E1EB59A2539DE5E003E2918 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 80B9B77716BBE6C083059EF9 /* Pods-DemoProject-DemoProjectUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

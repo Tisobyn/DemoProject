@@ -1,0 +1,26 @@
+PODS:
+  - Fakery (4.1.1)
+  - Realm (5.5.0):
+    - Realm/Headers (= 5.5.0)
+  - Realm/Headers (5.5.0)
+  - RealmSwift (5.5.0):
+    - Realm (= 5.5.0)
+
+DEPENDENCIES:
+  - Fakery
+  - RealmSwift
+
+SPEC REPOS:
+  trunk:
+    - Fakery
+    - Realm
+    - RealmSwift
+
+SPEC CHECKSUMS:
+  Fakery: d3380c4aa1efe7631c0831d7e26aa9db4491f014
+  Realm: fb399d76f44042e5cdfc630f33828fdb4d077345
+  RealmSwift: 3b7e62356207ef16d34de4e55d475163bd2062bb
+
+PODFILE CHECKSUM: 1ba1cef142aa10420baea7177cf2a1adc2901491
+
+COCOAPODS: 1.9.3

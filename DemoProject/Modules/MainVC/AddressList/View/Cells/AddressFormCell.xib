@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17125"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="AddressFormCell" id="gTV-IL-0wX" customClass="AddressFormCell" customModule="DemoProject" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="587" height="323"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="587" height="323"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view clipsSubviews="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3xL-VE-FYK" userLabel="ConteinerView">
+                        <rect key="frame" x="0.0" y="0.0" width="587" height="238"/>
+                        <subviews>
+                            <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5W0-VJ-n6k">
+                                <rect key="frame" x="143.5" y="11" width="300" height="216"/>
+                                <subviews>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Город" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="KLZ-dH-WL4">
+                                        <rect key="frame" x="16" y="16" width="268" height="44"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="44" id="TcR-Wc-eg7"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Адресс" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="O74-aM-FQU">
+                                        <rect key="frame" x="16" y="68" width="180" height="44"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="44" id="PuS-Sx-Yof"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Кв" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Wri-FP-leJ">
+                                        <rect key="frame" x="204" y="68" width="80" height="44"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="44" id="8ra-OF-snj"/>
+                                            <constraint firstAttribute="width" constant="80" id="U2t-48-f1Y"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gaT-Xf-gGp">
+                                        <rect key="frame" x="16" y="128" width="268" height="44"/>
+                                        <color key="backgroundColor" systemColor="opaqueSeparatorColor"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="44" id="BH2-s1-zRw"/>
+                                        </constraints>
+                                        <state key="normal" title="Добавить">
+                                            <color key="titleColor" systemColor="labelColor"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="addButtonPressed:" destination="gTV-IL-0wX" eventType="touchUpInside" id="oo5-Zg-7RC"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="O74-aM-FQU" firstAttribute="top" secondItem="KLZ-dH-WL4" secondAttribute="bottom" constant="8" id="8T5-ew-WJu"/>
+                                    <constraint firstItem="KLZ-dH-WL4" firstAttribute="top" secondItem="5W0-VJ-n6k" secondAttribute="top" constant="16" id="8zg-dp-s6y"/>
+                                    <constraint firstAttribute="height" constant="216" id="FIQ-WJ-61p"/>
+                                    <constraint firstItem="gaT-Xf-gGp" firstAttribute="top" secondItem="O74-aM-FQU" secondAttribute="bottom" constant="16" id="OZu-2b-K4S"/>
+                                    <constraint firstAttribute="trailing" secondItem="Wri-FP-leJ" secondAttribute="trailing" constant="16" id="Tqk-Cs-boB"/>
+                                    <constraint firstItem="KLZ-dH-WL4" firstAttribute="leading" secondItem="5W0-VJ-n6k" secondAttribute="leading" constant="16" id="YWF-pa-jEZ"/>
+                                    <constraint firstAttribute="trailing" secondItem="gaT-Xf-gGp" secondAttribute="trailing" constant="16" id="a4X-La-2Ug"/>
+                                    <constraint firstItem="Wri-FP-leJ" firstAttribute="top" secondItem="KLZ-dH-WL4" secondAttribute="bottom" constant="8" id="ajh-IR-gFL"/>
+                                    <constraint firstItem="gaT-Xf-gGp" firstAttribute="leading" secondItem="5W0-VJ-n6k" secondAttribute="leading" constant="16" id="dIg-xV-I1e"/>
+                                    <constraint firstItem="O74-aM-FQU" firstAttribute="leading" secondItem="5W0-VJ-n6k" secondAttribute="leading" constant="16" id="fF4-Fa-5hV"/>
+                                    <constraint firstItem="gaT-Xf-gGp" firstAttribute="top" secondItem="Wri-FP-leJ" secondAttribute="bottom" constant="16" id="k7G-5f-IZB"/>
+                                    <constraint firstItem="gaT-Xf-gGp" firstAttribute="top" secondItem="O74-aM-FQU" secondAttribute="bottom" constant="16" id="kta-wP-Ol0"/>
+                                    <constraint firstItem="Wri-FP-leJ" firstAttribute="leading" secondItem="O74-aM-FQU" secondAttribute="trailing" constant="8" id="sFK-2S-0g1"/>
+                                    <constraint firstAttribute="width" constant="300" id="tQH-iN-WaP"/>
+                                    <constraint firstAttribute="trailing" secondItem="KLZ-dH-WL4" secondAttribute="trailing" constant="16" id="zf0-yE-kBl"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="5W0-VJ-n6k" firstAttribute="centerY" secondItem="3xL-VE-FYK" secondAttribute="centerY" id="1lc-u2-VTh"/>
+                            <constraint firstItem="5W0-VJ-n6k" firstAttribute="centerX" secondItem="3xL-VE-FYK" secondAttribute="centerX" id="Zfp-ZQ-mO2"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="3xL-VE-FYK" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="KQx-gk-Lbx"/>
+                <constraint firstAttribute="bottom" secondItem="3xL-VE-FYK" secondAttribute="bottom" constant="85" id="X9n-VW-HSp"/>
+                <constraint firstItem="3xL-VE-FYK" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="a4q-eq-q8B"/>
+                <constraint firstAttribute="trailing" secondItem="3xL-VE-FYK" secondAttribute="trailing" id="hnm-go-Tbd"/>
+            </constraints>
+            <size key="customSize" width="587" height="323"/>
+            <connections>
+                <outlet property="addressTextField" destination="O74-aM-FQU" id="yWn-f3-4wb"/>
+                <outlet property="apartmentTextField" destination="Wri-FP-leJ" id="lvy-0r-v68"/>
+                <outlet property="cView" destination="5W0-VJ-n6k" id="zGS-0Q-bXl"/>
+                <outlet property="cityTextField" destination="KLZ-dH-WL4" id="pLv-yu-Is5"/>
+            </connections>
+            <point key="canvasLocation" x="344.20289855072468" y="105.46875"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="opaqueSeparatorColor">
+            <color red="0.77647058823529413" green="0.77647058823529413" blue="0.78431372549019607" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
